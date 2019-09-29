@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.txtIpAdd = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -152,9 +153,9 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(24, 86);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(76, 13);
+            this.label6.Size = new System.Drawing.Size(79, 13);
             this.label6.TabIndex = 12;
-            this.label6.Text = "WildCart Mask";
+            this.label6.Text = "WildCard Mask";
             // 
             // txtWildCart
             // 
@@ -168,9 +169,9 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(24, 240);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(76, 13);
+            this.label7.Size = new System.Drawing.Size(79, 13);
             this.label7.TabIndex = 16;
-            this.label7.Text = "WildCart Mask";
+            this.label7.Text = "WildCard Mask";
             // 
             // txtWild
             // 
@@ -201,9 +202,9 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(238, 214);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(76, 13);
+            this.label9.Size = new System.Drawing.Size(79, 13);
             this.label9.TabIndex = 20;
-            this.label9.Text = "WildCart Mask";
+            this.label9.Text = "WildCard Mask";
             // 
             // txtWild2
             // 
@@ -307,6 +308,7 @@
             this.Controls.Add(this.txtSubnet);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtIpAdd);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ip Address Calculator";
